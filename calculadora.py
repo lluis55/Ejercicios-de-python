@@ -1,7 +1,7 @@
 print("calculadora.")
-num1 = float(input("escribe el primer numero: "))
+num1 = float(input("primer numero: "))
 operacion = input("que operacion quieres hacer? (+, -, *, /): ")
-num2 = float(input("escribe el segundo numero: "))
+num2 = float(input("segundo numero: "))
 
 if operacion == '+':
     resultado = num1 + num2
